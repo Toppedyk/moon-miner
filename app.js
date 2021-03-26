@@ -5,7 +5,7 @@ let cheeseTrain = 0;
 let cyborg = 0;
 let total = 0
 let auto = 0
-let perSecond = Math.floor(auto/3);
+let perSecond = 0;
 
 let clickUpgrades ={
   drills:{
@@ -116,6 +116,8 @@ function update(){
   document.getElementById('c-price').innerHTML=`Price: ${autoUpgrades.cyborg.price}`
 
   document.getElementById('click').innerHTML=`Click Multiplier: ${total}`
+  
+  perSecond = Math.floor(auto/3)
   document.getElementById('cps').innerHTML=`Cheese per second: ${perSecond}`
 }
 
