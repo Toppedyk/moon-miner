@@ -15,3 +15,7 @@ h1{
 .bg-card{
   background-color: rgba(58, 57, 47, 0.25);
 }
+
+img{
+  box-shadow: 0 0 .5rem .1rem yellow;
+}
